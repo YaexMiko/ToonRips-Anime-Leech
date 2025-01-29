@@ -91,7 +91,7 @@ QBIT_NAME = environ.get('QBIT_NAME', 'qbittorrent-nox')
 FFMPEG_NAME = environ.get('FFMPEG_NAME', 'ffmpeg')
 
 # ============================ REQUIRED ================================
-if not (BOT_TOKEN := environ.get('BOT_TOKEN', '6499364659:AAHMmUxMWag28I9V_9YJBi8qaZWZ0VstGEk')):
+if not (BOT_TOKEN := environ.get('BOT_TOKEN', '8134247591:AAHdLgn-jq1FtjCn9Blx2I8fdqzapmsPEWU')):
     LOGGER.error('BOT_TOKEN variable is missing! Exiting now')
     exit(1)
 
@@ -152,7 +152,7 @@ if DATABASE_URL := environ.get('DATABASE_URL', 'mongodb+srv://hello:hello@cluste
 else:
     config_dict = {}
 
-if OWNER_ID := environ.get('OWNER_ID', '1596559467'):
+if OWNER_ID := environ.get('OWNER_ID', '7722146717'):
     OWNER_ID = int(OWNER_ID)
 else:
     LOGGER.error('OWNER_ID variable is missing! Exiting now')
